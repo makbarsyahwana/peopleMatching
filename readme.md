@@ -1,6 +1,5 @@
-**Show User**
+**API Documentation**
 ----
-  API Documentation.
 
 * **URL**
 
