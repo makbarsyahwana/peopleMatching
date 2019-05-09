@@ -1,10 +1,12 @@
 **Show User**
 ----
-  Returns json data about a single user.
+  API Documentation.
 
 * **URL**
 
   /user/create
+
+  "For Register New User"
 
 * **Method:**
 
@@ -92,6 +94,8 @@
 
   /user/getAll
 
+  "For Get All User Information"
+
 * **Method:**
 
   `GET`
@@ -131,6 +135,8 @@
 * **URL**
 
   /user/match
+
+  "For Find Two Matching People Based On Age And Mutual Friends"
 
 * **Method:**
 
