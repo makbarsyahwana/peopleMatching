@@ -5,8 +5,8 @@ const expressValidator = require('express-validator')
 
 mongoose.connect('mongodb://localhost:27017/match', { useNewUrlParser: true })
 mongoose.connection.on("open", function() {
-    console.log("Connected to mongo server.");
-  });
+    console.log("Connected to mongo server.")
+  })
 
 const app = express()
 

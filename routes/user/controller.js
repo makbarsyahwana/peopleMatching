@@ -54,6 +54,9 @@ const controller = {
     get: (req, res) => {
         userModels.find({})
         .then(foundUsers => {
+            foundUsers.map(user => {
+                user.password = null
+            })
             console.log(foundUsers)
             res.status(200).send({
                 message: "Found All Users",
